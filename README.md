@@ -1,18 +1,18 @@
-= Mail Notification
+# Mail Notification
 
 Container that sends mail notifcations
 Configuration happens with environment variables
 
-== Env
+## Env
 
-=== SENDER_NAME
+### SENDER_NAME
 
-=== SENDER_MAIL
+### SENDER_MAIL
 
-=== SMTP_HOST
+### SMTP_HOST
 
-=== SMTP_PORT
+### SMTP_PORT
 
-=== RECIPIENT_MAILS
+### RECIPIENT_MAILS
 
 one string divided by commas without spaces
