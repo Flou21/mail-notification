@@ -1,0 +1,16 @@
+name: mail-notification
+autocreate: true
+image: okteto/golang:1
+command: bash
+securityContext:
+  capabilities:
+    add:
+    - SYS_PTRACE
+sync:
+- .:/usr/src/app
+forward:
+- 2345:2345
+- 8080:8080
+namespace: okteto
+persistentVolume: 
+  enabled: false
