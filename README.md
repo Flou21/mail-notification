@@ -13,6 +13,8 @@ Configuration happens with environment variables
 
 ### SMTP_PORT
 
+### MESSAGE
+
 ### RECIPIENT_MAILS
 
 one string divided by commas without spaces
