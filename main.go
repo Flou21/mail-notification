@@ -12,7 +12,8 @@ import (
 
 func main() {
 	if err := godotenv.Load(); err != nil {
-		log.Fatal(err)
+		log.Println(err)
+		log.Println("continue without")
 	}
 
 	config := &Config{}
